@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    background-image: url('/Users/stropay.me/Downloads/goy.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 18px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.logo{
+    padding-left: 50px;
+    cursor: pointer;
+}
+.avatar-icon{
+    width: 40%;
+    cursor: pointer;
+}
+
+ hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid whitesmoke;
+}
+.ike{
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    margin: 0% 10% 0% 10%;
+    position: absolute;
+    top: 10%;
+}
+
+.product1{
+    width: 300px;
+    position: absolute;
+    left: 160px;
+    top: 180px;
+    border-radius: 5px;
+}
+
+.text-space{
+    position: absolute;
+    top: 180px;
+    left: 550px;
+}
+.text-space h4{
+    color: orange;
+    line-height: 25px;
+}
+.text-space h1{
+    padding-bottom: 40px;
+}
+.discount{
+    display: flex;
+    position: absolute;
+    top: 380px;
+    left: 550px;
+}
+.discount h3{
+    margin-right: 15px;
+}
+.btn{
+    background-color: rgb(233, 199, 171);
+    color: orangered;
+    border: 1px solid white;
+}
+.Small-pic{
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.thumb{
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    cursor: pointer;
+}
+.big{
+    background-color: whitesmoke;
+    color: orangered;
+    padding: 1px;
+    width: 20px;
+    border: 1px solid whitesmoke;
+}
+#mercy{
+    background-color: whitesmoke;
+    padding: 1px;
+    width: 20px;
+    border: 1px solid whitesmoke;
+}
+
+#messi{
+    background-color: orange;
+    color: white;
+    width: 110px;
+    padding: 5px;
+    border: 1px solid rgb(255, 145, 0);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-btn{
+    position: absolute;
+    top: 430px;
+    left: 550px;
+}
+.minus h5{
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+.minus{
+    position: absolute;
+    top: 405px;
+    left: 550px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+}
